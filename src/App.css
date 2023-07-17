@@ -52,22 +52,45 @@
 }
 
 
-#menu{
-  background-color: lightgray;
-  display: flex;
-  flex-direction: row;
+.menu{
+  background-color: black;
+  width: 100%;
+  height: 4rem;
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
 }
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin: 1rem;
+}
+
+.menu ul li{
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+.menuLink{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.menuLink:hover{
+  text-decoration: none;
+  transition: 250ms;
+  color: gold;
+  font-size: larger;
+}
+
 
 #content{
   background-color: lightyellow;
 }
 
 #home{
-  margin-top:2rem;
+  margin-top:8rem;
   min-height: 100vh;
 }
 
