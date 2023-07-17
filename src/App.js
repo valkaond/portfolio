@@ -1,17 +1,14 @@
 import './App.css';
-import Home from "./components/Home";
-import About from './components/About';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
+import Layout from './layout/Layout';
+import Content from './components/Content';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-      <About/>
-      <Contact/>
-      <Projects/>
-    </div>
+    <Layout>
+      <Menu/>
+      <Content/>
+    </Layout>
   );
 }
 
