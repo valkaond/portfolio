@@ -4,6 +4,7 @@ import '../App.css';
 function Home(){
    return (
       <div id="home">
+         <h3>Welcome to my portfolio</h3>
          <Typewriter
             options={{
                strings: [

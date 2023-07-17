@@ -90,18 +90,21 @@
 }
 
 #home{
-  margin-top:8rem;
+  padding-top: 7rem;
   min-height: 100vh;
 }
 
 #about{
+  padding-top: 7rem;
   min-height: 100vh;
 }
 
 #projects{
+  padding-top: 7rem;
   min-height: 100vh;
 }
 
 #contact{
+  padding-top: 7rem;
   min-height: 100vh;
 }
