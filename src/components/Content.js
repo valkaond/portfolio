@@ -3,7 +3,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-function Display(){
+function Content(){
     return(
         <div>
             <Home/>
@@ -14,4 +14,4 @@ function Display(){
     )
 }
 
-export default Display
+export default Content
