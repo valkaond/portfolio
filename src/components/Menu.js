@@ -4,7 +4,7 @@ import { useState } from "react"
 function Menu(){
     const [select, setSelect] = useState(0)
     return (
-        <div id="Menu">
+        <div id="menu">
             <div>
                 <h3>
                     Ondřej Válka

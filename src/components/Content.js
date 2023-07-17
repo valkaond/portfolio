@@ -5,7 +5,7 @@ import Contact from "./Contact";
 
 function Content(){
     return(
-        <div>
+        <div id="content">
             <Home/>
             <About/>
             <Projects/>

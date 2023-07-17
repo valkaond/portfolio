@@ -1,3 +1,12 @@
+*{
+  margin: 0rem;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#layout{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#menu{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#content{
+  background-color: lightyellow;
+}
+
+#home{
+  margin-top:2rem;
+  min-height: 100vh;
+}
+
+#about{
+  min-height: 100vh;
+}
+
+#projects{
+  min-height: 100vh;
+}
+
+#contact{
+  min-height: 100vh;
 }

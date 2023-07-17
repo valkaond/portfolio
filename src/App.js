@@ -5,10 +5,14 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <Layout>
-      <Menu/>
-      <Content/>
-    </Layout>
+    <div className='App'>
+      <Layout>
+        <div id="layout">
+          <Menu/>
+          <Content/>
+        </div>
+      </Layout>
+    </div>
   );
 }
 
